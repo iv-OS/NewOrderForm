@@ -81,7 +81,8 @@
                                 <rect key="frame" x="40" y="72" width="520" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="UNT-ds-eWU"/>
+                                    <constraint firstAttribute="height" constant="30" id="TZ6-SP-E1i"/>
+                                    <constraint firstAttribute="width" constant="520" id="Tw6-aD-8H0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -98,101 +99,119 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7D-kc-nKE">
-                                <rect key="frame" x="20" y="114" width="194" height="135"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tyn-TH-RlK">
+                                <rect key="frame" x="20" y="110" width="194" height="135"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RUO-tg-n6k">
-                                        <rect key="frame" x="0.0" y="0.0" width="97" height="135"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uz8-QU-2HE">
+                                        <rect key="frame" x="0.0" y="0.0" width="194" height="135"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unit Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3F-Ey-YSM">
-                                                <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8cs-HG-Ngy">
+                                                <rect key="frame" x="0.0" y="0.0" width="194" height="135"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7D-kc-nKE">
+                                                        <rect key="frame" x="0.0" y="0.0" width="194" height="135"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="RUO-tg-n6k">
+                                                                <rect key="frame" x="0.0" y="0.0" width="97" height="135"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unit Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="80" translatesAutoresizingMaskIntoConstraints="NO" id="D3F-Ey-YSM">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="97" id="ORa-fP-YmZ"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="gQr-h5-Hkr"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Sold" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-AJ-SrG">
+                                                                        <rect key="frame" x="0.0" y="35" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="30" id="hjt-lH-9HI"/>
+                                                                            <constraint firstAttribute="width" constant="97" id="jUH-9v-7P1"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hED-8N-TFV">
+                                                                        <rect key="frame" x="0.0" y="70" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="30" id="rxU-mk-XMA"/>
+                                                                            <constraint firstAttribute="width" constant="97" id="yTI-OY-4QC"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charged" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YE-es-Xy4">
+                                                                        <rect key="frame" x="0.0" y="105" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <animations/>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jqD-go-WaU">
+                                                                <rect key="frame" x="97" y="0.0" width="97" height="135"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Unit Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7o-dV-yTM">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="30" id="7Z7-j5-EmD"/>
+                                                                            <constraint firstAttribute="width" constant="97" id="Xck-o0-MXp"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price Sold" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3eu-Up-nkz">
+                                                                        <rect key="frame" x="0.0" y="35" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="97" id="8Ks-8I-xVG"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="IcS-mT-n9J"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Quantity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VWR-qO-i9d">
+                                                                        <rect key="frame" x="0.0" y="70" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="97" id="OBT-p1-rED"/>
+                                                                            <constraint firstAttribute="height" constant="30" id="xEV-MY-Klj"/>
+                                                                        </constraints>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Charged" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cT6-XD-t0n">
+                                                                        <rect key="frame" x="0.0" y="105" width="97" height="30"/>
+                                                                        <animations/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <textInputTraits key="textInputTraits"/>
+                                                                    </textField>
+                                                                </subviews>
+                                                                <animations/>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <animations/>
+                                                    </stackView>
+                                                </subviews>
                                                 <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="97" id="ORa-fP-YmZ"/>
-                                                    <constraint firstAttribute="height" constant="30" id="gQr-h5-Hkr"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Sold" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mo5-AJ-SrG">
-                                                <rect key="frame" x="0.0" y="35" width="97" height="30"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="hjt-lH-9HI"/>
-                                                    <constraint firstAttribute="width" constant="97" id="jUH-9v-7P1"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hED-8N-TFV">
-                                                <rect key="frame" x="0.0" y="70" width="97" height="30"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="rxU-mk-XMA"/>
-                                                    <constraint firstAttribute="width" constant="97" id="yTI-OY-4QC"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charged" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YE-es-Xy4">
-                                                <rect key="frame" x="0.0" y="105" width="97" height="30"/>
-                                                <animations/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <animations/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jqD-go-WaU">
-                                        <rect key="frame" x="97" y="0.0" width="97" height="135"/>
-                                        <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Unit Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e7o-dV-yTM">
-                                                <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="7Z7-j5-EmD"/>
-                                                    <constraint firstAttribute="width" constant="97" id="Xck-o0-MXp"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price Sold" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3eu-Up-nkz">
-                                                <rect key="frame" x="0.0" y="35" width="97" height="30"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="97" id="8Ks-8I-xVG"/>
-                                                    <constraint firstAttribute="height" constant="30" id="IcS-mT-n9J"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Quantity" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VWR-qO-i9d">
-                                                <rect key="frame" x="0.0" y="70" width="97" height="30"/>
-                                                <animations/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="97" id="OBT-p1-rED"/>
-                                                    <constraint firstAttribute="height" constant="30" id="xEV-MY-Klj"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Charged" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cT6-XD-t0n">
-                                                <rect key="frame" x="0.0" y="105" width="97" height="30"/>
-                                                <animations/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
+                                            </stackView>
                                         </subviews>
                                         <animations/>
                                     </stackView>
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" placeholderIntrinsicWidth="64" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqd-LJ-GWe">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="64" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqd-LJ-GWe">
                                 <rect key="frame" x="36" y="519" width="64" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Calculate"/>
@@ -200,23 +219,13 @@
                                     <action selector="calculateTotal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EH3-j4-CmN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Extras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeP-UD-XyP">
-                                <rect key="frame" x="20" y="273" width="194" height="21"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="EeY-NQ-lYc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k7x-tb-Odq">
-                                <rect key="frame" x="20" y="293" width="194" height="170"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MvH-Ek-blT">
+                                <rect key="frame" x="20" y="297" width="194" height="170"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="18b-Gj-uul">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="18b-Gj-uul">
                                         <rect key="frame" x="0.0" y="0.0" width="97" height="170"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTo-Q7-Zcv">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Screen H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTo-Q7-Zcv">
                                                 <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -227,7 +236,7 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen $" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbd-Gf-Bw0">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Screen $" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbd-Gf-Bw0">
                                                 <rect key="frame" x="0.0" y="35" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -238,7 +247,7 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoC-BO-fQ5">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoC-BO-fQ5">
                                                 <rect key="frame" x="0.0" y="70" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -249,7 +258,7 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ship Co." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkW-tl-nFS">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Ship Co." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NkW-tl-nFS">
                                                 <rect key="frame" x="0.0" y="105" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -260,7 +269,7 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUC-nV-XF6">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Shipping" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUC-nV-XF6">
                                                 <rect key="frame" x="0.0" y="140" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -274,10 +283,10 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wVh-f6-6st">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="wVh-f6-6st">
                                         <rect key="frame" x="97" y="0.0" width="97" height="170"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Screen H" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eZO-0C-2Ip">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Screen H" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eZO-0C-2Ip">
                                                 <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -287,7 +296,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Screen $" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ASi-fE-rmf">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Screen $" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ASi-fE-rmf">
                                                 <rect key="frame" x="0.0" y="35" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -297,7 +306,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="House" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kjB-Y4-had">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="House" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kjB-Y4-had">
                                                 <rect key="frame" x="0.0" y="70" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -307,7 +316,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ship Co" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-Ee-lA3">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ship Co" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-Ee-lA3">
                                                 <rect key="frame" x="0.0" y="105" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -317,7 +326,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Shipping" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Mo-d4-3GI">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Shipping" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Mo-d4-3GI">
                                                 <rect key="frame" x="0.0" y="140" width="97" height="30"/>
                                                 <animations/>
                                                 <constraints>
@@ -333,22 +342,122 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ukr-fF-dDw">
+                                <rect key="frame" x="139" y="258" width="51" height="21"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="extrasSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="5k0-OB-yOO"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Extras" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeP-UD-XyP">
+                                <rect key="frame" x="44" y="263" width="48" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="rwV-wN-0m8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="u2i-pd-Dv0">
+                                <rect key="frame" x="222" y="110" width="92" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZ1-3w-qgL">
+                                        <rect key="frame" x="0.0" y="0.0" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Supplier"/>
+                                        <connections>
+                                            <action selector="calculateSupplierCharge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I4L-nJ-Loc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4u-SS-jDh">
+                                        <rect key="frame" x="0.0" y="30" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="SubTotal"/>
+                                        <connections>
+                                            <action selector="calculateSubTotal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c7u-q1-6Zp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqU-x8-Rtz">
+                                        <rect key="frame" x="0.0" y="60" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Tax"/>
+                                        <connections>
+                                            <action selector="calculateTax:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vfa-od-6ph"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agH-Ye-XGp">
+                                        <rect key="frame" x="0.0" y="90" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Total Cost"/>
+                                        <connections>
+                                            <action selector="calculateTotalCost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ac3-Jh-kva"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAx-bb-tsi">
+                                        <rect key="frame" x="0.0" y="120" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Profit"/>
+                                        <connections>
+                                            <action selector="calculateProfit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ST2-XT-WY6"/>
+                                            <action selector="calculateSupplierCharge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2bZ-rZ-1LC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCR-4O-tUt">
+                                        <rect key="frame" x="0.0" y="150" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Commission"/>
+                                        <connections>
+                                            <action selector="calculateSupplierCharge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6d-7H-vyt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLT-6s-Fv5">
+                                        <rect key="frame" x="0.0" y="180" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Actual Unit"/>
+                                        <connections>
+                                            <action selector="calculateSupplierCharge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ubA-DR-XOB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8a-Rq-mYq">
+                                        <rect key="frame" x="0.0" y="210" width="92" height="30"/>
+                                        <animations/>
+                                        <state key="normal" title="Actual Comm"/>
+                                        <connections>
+                                            <action selector="calculateSupplierCharge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bjq-WK-kg3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <animations/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7Y-Vz-LRj">
+                                <rect key="frame" x="245" y="367" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Yh3-uz-4px"/>
+                                    <constraint firstAttribute="height" constant="30" id="uvL-u7-aoi"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="toggleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ole-Cj-gJL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="s7D-kc-nKE" firstAttribute="top" secondItem="0u8-gl-eRn" secondAttribute="bottom" constant="12" id="8mG-Ad-lLk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0u8-gl-eRn" secondAttribute="trailing" constant="20" id="9FQ-p7-dlD"/>
-                            <constraint firstItem="k7x-tb-Odq" firstAttribute="leading" secondItem="vJy-Fj-TA4" secondAttribute="leading" id="Cgv-EY-ese"/>
-                            <constraint firstItem="k7x-tb-Odq" firstAttribute="leading" secondItem="CeP-UD-XyP" secondAttribute="leading" id="G17-Zc-6NS"/>
-                            <constraint firstItem="CeP-UD-XyP" firstAttribute="trailing" secondItem="s7D-kc-nKE" secondAttribute="trailing" id="LkQ-PV-Sfe"/>
-                            <constraint firstItem="CeP-UD-XyP" firstAttribute="top" secondItem="s7D-kc-nKE" secondAttribute="bottom" constant="24" id="Mzg-Ud-Nbh"/>
-                            <constraint firstItem="k7x-tb-Odq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NZK-UN-onR"/>
-                            <constraint firstItem="CeP-UD-XyP" firstAttribute="leading" secondItem="s7D-kc-nKE" secondAttribute="leading" id="RTA-Pz-Q4s"/>
-                            <constraint firstItem="0u8-gl-eRn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="VRg-Lh-tfv"/>
-                            <constraint firstItem="0u8-gl-eRn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Yvb-OI-zXV"/>
-                            <constraint firstItem="k7x-tb-Odq" firstAttribute="top" secondItem="s7D-kc-nKE" secondAttribute="bottom" constant="44" id="ucG-A4-1Md"/>
-                            <constraint firstItem="Zqd-LJ-GWe" firstAttribute="top" secondItem="k7x-tb-Odq" secondAttribute="bottom" constant="56" id="vFA-f9-piF"/>
+                            <constraint firstItem="u2i-pd-Dv0" firstAttribute="top" secondItem="tyn-TH-RlK" secondAttribute="top" id="58K-Ga-eWn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0u8-gl-eRn" secondAttribute="trailing" constant="20" id="60v-37-Gbh"/>
+                            <constraint firstItem="u2i-pd-Dv0" firstAttribute="top" secondItem="0u8-gl-eRn" secondAttribute="bottom" constant="8" symbolic="YES" id="94O-eX-DGA"/>
+                            <constraint firstItem="u2i-pd-Dv0" firstAttribute="leading" secondItem="tyn-TH-RlK" secondAttribute="trailing" constant="8" symbolic="YES" id="9Ol-2l-1pB"/>
+                            <constraint firstItem="0u8-gl-eRn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="AvV-xF-yOT"/>
+                            <constraint firstItem="h7Y-Vz-LRj" firstAttribute="leading" secondItem="MvH-Ek-blT" secondAttribute="trailing" constant="31" id="Jy8-ll-nii"/>
+                            <constraint firstItem="u2i-pd-Dv0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="222" id="Krq-ou-Tyc"/>
+                            <constraint firstItem="0u8-gl-eRn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="LnC-nD-yVI"/>
+                            <constraint firstItem="u2i-pd-Dv0" firstAttribute="leading" secondItem="MvH-Ek-blT" secondAttribute="trailing" constant="8" symbolic="YES" id="Zms-mh-lGV"/>
+                            <constraint firstItem="0u8-gl-eRn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="a7z-SU-fG2"/>
+                            <constraint firstItem="0u8-gl-eRn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="dHk-Oj-yFX"/>
+                            <constraint firstItem="h7Y-Vz-LRj" firstAttribute="top" secondItem="u2i-pd-Dv0" secondAttribute="bottom" constant="17" id="gWA-Y9-Q0A"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Order" id="WlM-AY-wZq">
@@ -364,16 +473,27 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="calculateProfitButton" destination="hAx-bb-tsi" id="CGD-w1-z21"/>
+                        <outlet property="calculateSubTotalButton" destination="Z4u-SS-jDh" id="lny-91-igA"/>
                         <outlet property="calculateTotalButton" destination="Zqd-LJ-GWe" id="bSy-vI-00x"/>
                         <outlet property="clientNameTextField" destination="0u8-gl-eRn" id="PNl-5V-xNO"/>
+                        <outlet property="extrasLabel" destination="CeP-UD-XyP" id="kLD-rg-7PG"/>
+                        <outlet property="houseLabel" destination="DoC-BO-fQ5" id="jxb-BV-jO4"/>
                         <outlet property="houseTextField" destination="kjB-Y4-had" id="vVA-J3-P8o"/>
                         <outlet property="priceSoldTextField" destination="3eu-Up-nkz" id="ZBh-K9-yfF"/>
                         <outlet property="quantityTextField" destination="VWR-qO-i9d" id="ZDr-hi-ngb"/>
                         <outlet property="saveButton" destination="rqj-bR-rcs" id="2vX-pJ-vBz"/>
+                        <outlet property="screenChargedLabel" destination="mbd-Gf-Bw0" id="T3E-vx-RIf"/>
                         <outlet property="screenChargedTextField" destination="ASi-fE-rmf" id="ABx-6g-d5d"/>
+                        <outlet property="screenHLabel" destination="CTo-Q7-Zcv" id="ixr-oT-N5d"/>
                         <outlet property="screenHouseTextField" destination="eZO-0C-2Ip" id="fef-wy-SzA"/>
+                        <outlet property="shipCoLabel" destination="NkW-tl-nFS" id="GFX-zb-5IQ"/>
                         <outlet property="shipCoTextField" destination="wYc-Ee-lA3" id="LAI-gk-X92"/>
+                        <outlet property="shippingLabel" destination="dUC-nV-XF6" id="3iA-x4-e08"/>
                         <outlet property="shippingTextField" destination="0Mo-d4-3GI" id="dPz-gF-hxB"/>
+                        <outlet property="supplierCharge" destination="OZ1-3w-qgL" id="Suc-pf-rA5"/>
+                        <outlet property="taxButton" destination="KqU-x8-Rtz" id="DDI-Hf-ove"/>
+                        <outlet property="totalCostButton" destination="agH-Ye-XGp" id="FdA-6n-q6M"/>
                         <outlet property="totalLabel" destination="vJy-Fj-TA4" id="WyQ-yF-7gi"/>
                         <outlet property="unitPriceTextField" destination="e7o-dV-yTM" id="kZK-cK-UhA"/>
                     </connections>
@@ -423,6 +543,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="goR-kJ-A3r"/>
+        <segue reference="Rfj-eY-b8o"/>
     </inferredMetricsTieBreakers>
 </document>

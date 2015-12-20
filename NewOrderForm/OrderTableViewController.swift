@@ -64,7 +64,7 @@ class OrderTableViewController: UITableViewController {
         let order = orders[indexPath.row]
         
         cell.textLabel?.text = order.client
-        cell.detailTextLabel?.text = String(order.calculateTotal())
+       // cell.detailTextLabel?.text = String(order.calculateTotal())
         
         
         
